@@ -1,10 +1,10 @@
 import * as express from 'express';
 import { Application } from 'express';
 import serverless from 'serverless-http';
-import { getAllCourses, getCourseById } from './get-courses.route';
-import { searchLessons } from './search-lessons.route';
-import { saveCourse } from './save-course.route';
-import { loginUser } from './login.route';
+import { getAllCourses, getCourseById } from './get-courses-route';
+import { searchLessons } from './search-lessons-route';
+import { saveCourse } from './save-course-route';
+import { loginUser } from './login-route';
 
 const bodyParser = require('body-parser');
 
